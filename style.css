@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%
+}
+
+body {
+  background-color: #E2E2E2;
+  color: #2A2D25;
+  font-family: Arial,
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -142px;
+/*  The bottom margin is the negative value of the footer  */
+}
+.weather {
+  width:800px;
+  margin:0 auto;
+  text-align: center;
+}
+
+#theIcon {
+  width: 100px;
+}
+
+#temperature {
+  display: inline-block;
+  margin-right:10px;
+}
+.btn {
+  display: inline-block;
+}
+
+.footer, .push {
+  height: 142px;
+/*  push must be the same height as footer  */
+}
