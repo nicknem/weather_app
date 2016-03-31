@@ -6,22 +6,42 @@ html, body {
 }
 
 body {
-  background-color: #E2E2E2;
-  color: #2A2D25;
-  font-family: Arial,
+  background-color: #DEF2F3;
+  color: #24454C;
+  font-family: 'Ubuntu', sans-serif;
+}
+h1, h2 {
+  font-family: 'Abel', sans-serif;
+  color: #1093A7;
+  font-size: 3em;
 }
 
+a {
+  color: #24454C;
+}
+
+a:hover {
+  color: #589BA4;
+  text-decoration: none;
+
+}
 .wrapper {
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -142px;
+  padding: 2em;
+
 /*  The bottom margin is the negative value of the footer  */
 }
 .weather {
   width:800px;
   margin:0 auto;
+  margin-top: 2em;
   text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 3em;
+}
+.weather-items {
+  border-left: 1px solid #1AD3F1;
+
 }
 
 #theIcon {
@@ -36,7 +56,13 @@ body {
   display: inline-block;
 }
 
-.footer, .push {
-  height: 142px;
-/*  push must be the same height as footer  */
+.padded {
+  padding: 1em;
+}
+
+.btn-default {
+  background-color: #1AD3F1;
+}
+.btn-default:hover {
+  background-color: #589BA4;
 }
